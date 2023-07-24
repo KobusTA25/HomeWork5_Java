@@ -6,9 +6,12 @@ public class Main {
     public static void main(String[] args) {
         HashMap<String, List<String>> phoneBook = new HashMap<>();
         addContact(phoneBook, "Иванов", "123456789");
-        addContact(phoneBook, "Петров", "987654321");
+        addContact(phoneBook, "Петров", "554433221");
         addContact(phoneBook, "Сидоров", "111111111");
+        addContact(phoneBook, "Сидоров", "333333333");
         addContact(phoneBook, "Васильев", "777777777");
+        addContact(phoneBook, "Сидоров", "222222222");
+        addContact(phoneBook, "Иванов", "987654321");
        
         printPhoneBook(phoneBook);
     }
